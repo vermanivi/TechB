@@ -1,0 +1,173 @@
+   :root {
+      font-size: 16px;
+  }
+  
+  body {
+      margin: 0;
+      background-color: #FCEBEE;
+  }
+  
+  .one {
+      color: turquoise
+  }
+  
+  .two {
+      color: red;
+  }
+  
+  #two-id {
+      color: green;
+  }
+  
+  .two-tag button {
+      border: none;
+      outline: none;
+      padding: 12px 18px;
+      background: yellow;
+  }
+  
+  .two-btn {
+      background: green;
+  }
+  
+  p {
+      background-color: red;
+  }
+  
+  .two-class-1 {
+      background-color: green;
+  }
+  
+  #two-id-1 {
+      background-color: yellow;
+  }
+  
+  .three .child {
+      background-color: brown;
+  }
+  
+  .four-1 {
+      background: yellow;
+  }
+  
+  .four {
+      background: green;
+  }
+  
+  .four-2 .four-3 {
+      background: orange;
+  }
+  
+  .four-3 {
+      background: red !important;
+  }
+  
+  .four-2 .four-3.four-5 {
+      background: black;
+  }
+  
+  .five-parent {
+      font-size: 50px;
+  }
+  
+  .five-child {
+      font-size: 1rem;
+      padding: 1rem;
+      width: 40%;
+  }
+  
+  .six {
+      width: 100px;
+      color: red;
+      padding: 10px;
+      border: 1px solid green;
+      margin: 10px;
+      box-sizing: border-box;
+  }
+  
+  .container {
+      width: 1366px;
+      margin: auto;
+      background-color: #EF9A9A;
+  }
+  
+  .seven-p {
+      width: 100%;
+      height: 300px;
+      background-color: cornflowerblue;
+      color: white;
+      padding: 20px;
+      position: relative;
+  }
+  
+  .seven-c {
+      width: 100%;
+      height: 100px;
+      background-color: palegreen;
+      color: white;
+  }
+  
+  .eight-p {
+      background-color: red;
+      width: 100%;
+  }
+  
+  .eight-c {
+      background-color: palevioletred;
+      width: fit-content;
+      margin: auto;
+  }
+  
+  .eight-c:after {
+      content: " new"
+  }
+  
+  .eight-c::before {
+      content: " before"
+  }
+  
+  .block-color {
+      background-color: blue;
+      height: 80px;
+      width: 100px;
+      position: relative;
+  }
+  
+  .block-color:before {
+      position: absolute;
+      content: "";
+      width: 0px;
+      height: 0px;
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+      border-bottom: 5px solid black;
+      top: 0;
+      left: 0;
+      margin-top: -5px;
+  }
+  
+  .eight-p:hover {
+      background-color: purple;
+  }
+  
+  .list li:nth-child(2) {
+      font-size: 30px;
+  }
+  
+  .eight-list .eigth:nth-child(2) {
+      font-size: 40px;
+  }
+  
+  @media(max-width: 1366px) {
+      .container {
+          width: auto;
+          background-color: green;
+      }
+  }
+  
+  @media(max-width: 1024px) {
+      .container {
+          width: auto;
+          background-color: yellow;
+      }
+  }
