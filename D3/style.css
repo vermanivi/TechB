@@ -1,0 +1,42 @@
+body {
+    background: white;
+    margin: 0;
+}
+
+main {
+    height: 120px;
+    background-color: #fcebee;
+    z-index: 100;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #EF9A9A;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+list {
+    display: flex;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    margin-right: 8px;
+    padding: 16p;
+}
+
+.abs {
+    width: 200px;
+    height: 100px;
+    background-color: #c2315c;
+    top: 0;
+}
